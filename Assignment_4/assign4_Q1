@@ -1,0 +1,23 @@
+Question 1
+By how many ways we can access elements in the DOM and write about them in brief?
+
+Ans:
+1.  By ID
+ Every single element in the DOM has a unique ID and 
+ we can access this element by ID with the getElementById() method of the document object.
+
+ 2. By ClassName
+ The class attribute is used to access one or more specific elements in the DOM. 
+ We can get all the elements with a given class name with the getElementsByClassName() method.
+
+ 3.By TagName
+ A less specific way to access multiple elements on the page would be by its HTML tag name.
+We access an element by tag with the getElementsByTagName() method.
+
+4.Query Selectors
+The querySelector() method returns the first element that matches a specified CSS selector in the document. 
+It only returns the first element that matches the specified selectors. 
+To return all the matches, we use the querySelectorAll() method .
+
+
+
